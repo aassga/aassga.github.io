@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>吳曜廷 Yao-Ting Wu｜Vue 前端工程師</title>
+  <meta name="description" content="吳曜廷，6 年以上 Vue 前端開發經驗、近 5 年網頁設計背景。擅長即時互動 H5、WebSocket、影音串流與 Canvas 資料視覺化。">
+  <meta name="theme-color" content="#0b1120">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="吳曜廷｜Vue 前端工程師">
+  <meta property="og:description" content="6 年以上 Vue 前端開發經驗｜即時互動 H5・WebSocket・影音串流・Canvas">
+  <meta property="og:image" content="https://aassga.github.io/assets/img/twstock.webp">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2342b883'/%3E%3Ctext x='32' y='43' font-family='Arial' font-weight='700' font-size='28' text-anchor='middle' fill='%230b1120'%3EYT%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="回到頂端"><span class="logo-mark">YT</span><span class="logo-text">吳曜廷</span></a>
+      <nav class="site-nav" id="site-nav" aria-label="主選單">
+        <a href="#about">關於我</a>
+        <a href="#skills">技能</a>
+        <a href="#projects">作品</a>
+        <a href="#experience">經歷</a>
+        <a href="#contact" class="nav-cta">聯絡我</a>
+      </nav>
+      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="開啟選單"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="top">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <p class="hero-hello mono">&lt;hello world /&gt;</p>
+        <h1 class="hero-title">我是 <span class="grad">吳曜廷</span><br>Vue 前端工程師</h1>
+        <p class="hero-lead">擁有 6 年以上 Vue 前端開發經驗與近 5 年網頁設計背景，專注於<strong>即時互動 H5、WebSocket、影音串流與 Canvas 資料視覺化</strong>，能從設計稿一路做到穩定上線的產品。</p>
+        <div class="hero-actions">
+          <a class="btn btn--primary" href="#projects">看我的作品</a>
+          <a class="btn btn--ghost" href="https://github.com/aassga" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+            GitHub
+          </a>
+        </div>
+        <ul class="hero-stats">
+          <li><strong>6+</strong><span>年 Vue 前端開發</span></li>
+          <li><strong>11+</strong><span>年網頁相關經驗</span></li>
+          <li><strong>7</strong><span>種語系 I18n 架構</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="reveal">
+          <p class="eyebrow mono">01 / About</p>
+          <h2 class="section-title">關於我</h2>
+        </div>
+        <div class="about-body reveal">
+          <p>我從網頁設計師起步，在設計公司累積了近 5 年的版面規劃、切版與 UI/UX 經驗，之後轉為前端工程師，專注在 Vue 生態系開發至今。</p>
+          <p>現職負責<strong>高互動即時直播平台（H5）</strong>的前端開發，處理 WebSocket 長連線的心跳與斷線重連、多種影音播放器整合、Canvas 即時圖表，以及支援 7 種語言的多語系架構。也主導既有程式碼重構，建立多環境、多品牌的打包流程。</p>
+          <p>工作之餘持續精進 Vue 3 生態系，以 Vue 3、Pinia、Vite 獨立開發台股資訊分析工具；接下來規劃投入 TypeScript 學習，讓開發更完整。</p>
+          <ul class="about-points">
+            <li><span>⚡</span>即時互動應用：WebSocket、影音串流、Canvas</li>
+            <li><span>🎨</span>設計與開發兼具：直接與 UI/UX 對稿，減少溝通成本</li>
+            <li><span>🧱</span>重視可維護性：元件化、重構、多環境建置</li>
+            <li><span>🤝</span>熟悉團隊流程：Git 分支協作、Jira、Figma、Swagger</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow mono">02 / Skills</p>
+          <h2 class="section-title">技能</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <h3>框架與狀態管理</h3>
+            <ul class="chips">
+              <li class="chip--hot">Vue 3</li><li>Vue 2</li><li>Pinia</li><li>Vuex</li><li>Vue Router</li><li>Vue I18n</li><li>uni-app</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>語言與即時通訊</h3>
+            <ul class="chips">
+              <li class="chip--hot">JavaScript (ES6+)</li><li>HTML5</li><li>CSS3</li><li class="chip--hot">WebSocket</li><li>Axios</li><li>RESTful API</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>視覺化與影音</h3>
+            <ul class="chips">
+              <li class="chip--hot">Canvas</li><li>TCPlayer</li><li>NodePlayer</li><li>Wowza WebRTC</li><li>阿里雲播放器</li><li>GSAP</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>樣式與 UI 框架</h3>
+            <ul class="chips">
+              <li>Sass / SCSS</li><li>Less</li><li>Pug</li><li class="chip--hot">RWD</li><li>Element UI / Plus</li><li>Vant</li><li>Bootstrap Vue</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>建置與部署</h3>
+            <ul class="chips">
+              <li class="chip--hot">Vite</li><li>Webpack</li><li>Babel</li><li>PWA</li><li>Cloudflare Workers</li><li>GitHub Pages</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>協作與設計工具</h3>
+            <ul class="chips">
+              <li>Git</li><li>GitHub / GitLab</li><li>Jira</li><li>Figma</li><li>Swagger</li><li>Postman</li><li>Photoshop</li><li>Illustrator</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow mono">03 / Projects</p>
+          <h2 class="section-title">作品</h2>
+          <p class="section-desc">個人開發的作品都附上線上展示或原始碼；公司專案內容涉及機密，僅說明負責範圍。</p>
+        </div>
+
+        <div class="filters reveal" role="tablist" aria-label="作品分類">
+          <button class="filter is-active" type="button" data-filter="all" role="tab" aria-selected="true">全部</button>
+          <button class="filter" type="button" data-filter="side" role="tab" aria-selected="false">個人作品</button>
+          <button class="filter" type="button" data-filter="work" role="tab" aria-selected="false">公司專案</button>
+          <button class="filter" type="button" data-filter="design" role="tab" aria-selected="false">網站設計</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- 台股資訊分析儀表板 -->
+          <article class="project project--featured reveal" data-cat="side">
+            <a class="project-thumb" href="https://aassga.github.io/twstockinfo.com/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+              <img src="assets/img/twstock.webp" alt="" width="960" height="600" loading="lazy">
+            </a>
+            <div class="project-body">
+              <p class="project-meta"><span class="badge badge--side">個人作品</span><span>2026・持續開發中</span></p>
+              <h3>台股資訊分析儀表板</h3>
+              <p>整合即時報價、熱門與成交量排行、K 線技術指標（MA、RSI、MACD、KD、布林通道）、三大法人與融資融券籌碼、基本面與持股管理的台股分析平台。透過自建 Cloudflare Worker Proxy 統一串接 TWSE、Yahoo Chart、FinMind 等資料來源，處理快取與錯誤備援。</p>
+              <ul class="tags"><li>Vue 3</li><li>Pinia</li><li>Vue Router</li><li>Vite</li><li>PWA</li><li>Vant</li><li>Element Plus</li><li>Cloudflare Worker</li></ul>
+              <div class="project-links">
+                <a href="https://aassga.github.io/twstockinfo.com/" target="_blank" rel="noopener">線上展示 ↗</a>
+                <a href="https://github.com/aassga/twstockinfo.com" target="_blank" rel="noopener">原始碼 ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 盤前作戰室 -->
+          <article class="project reveal" data-cat="side">
+            <div class="project-thumb project-thumb--art art-trade" aria-hidden="true">
+              <svg viewBox="0 0 200 100" preserveAspectRatio="none"><polyline points="0,80 20,70 40,74 60,52 80,58 100,36 120,44 140,26 160,32 180,14 200,20" /></svg>
+              <span class="art-label mono">盤前作戰室</span>
+            </div>
+            <div class="project-body">
+              <p class="project-meta"><span class="badge badge--side">個人作品</span><span>2026</span></p>
+              <h3>盤前作戰室｜台股當沖篩選台</h3>
+              <p>以證交所與櫃買中心官方 OpenAPI 取得上市櫃行情與當沖資格，依流動性、波動效率、方向結構與跳空風險進行規則式評分。Node.js 資料代理具自動重試與磁碟快取。</p>
+              <ul class="tags"><li>Vue 3</li><li>Vite</li><li>Node.js</li><li>OpenAPI</li></ul>
+              <div class="project-links">
+                <a href="https://github.com/aassga/tw-daytrade" target="_blank" rel="noopener">原始碼 ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 德勝集團官網 -->
+          <article class="project reveal" data-cat="side design">
+            <a class="project-thumb" href="https://aassga.github.io/Desheng/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+              <img src="assets/img/desheng.webp" alt="" width="960" height="600" loading="lazy">
+            </a>
+            <div class="project-body">
+              <p class="project-meta"><span class="badge badge--design">網站設計</span><span>2020・2026 改版</span></p>
+              <h3>德勝集團官網 RWD 改版</h3>
+              <p>集團總部官網全面改版：移除 jQuery 與 Bootstrap 3，以原生 HTML / CSS / JS 重寫，三種斷點 RWD、產業輪播、捲動動畫，圖片轉 WebP 讓素材由 9MB 降至 1.8MB。</p>
+              <ul class="tags"><li>HTML5</li><li>CSS Grid</li><li>JavaScript</li><li>RWD</li><li>WebP</li></ul>
+              <div class="project-links">
+                <a href="https://aassga.github.io/Desheng/" target="_blank" rel="noopener">線上展示 ↗</a>
+                <a href="https://github.com/aassga/Desheng/tree/develop" target="_blank" rel="noopener">原始碼 ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 即時互動直播平台 -->
+          <article class="project reveal" data-cat="work">
+            <div class="project-thumb project-thumb--art art-live" aria-hidden="true">
+              <span class="live-dot"></span><span class="art-label mono">LIVE · H5</span>
+            </div>
+            <div class="project-body">
+              <p class="project-meta"><span class="badge badge--work">公司專案</span><span>2023 – 現在</span></p>
+              <h3>高互動即時直播平台（H5）</h3>
+              <p>負責大廳、互動房間與會員中心。WebSocket 即時同步（心跳、斷線重連、生命週期管理）、多播放器整合與異常重播、Canvas 即時圖表、7 種語系 I18n，並重構共用元件與建立 dev / stage / prod 多品牌打包流程。</p>
+              <ul class="tags"><li>Vue 2</li><li>Vuex</li><li>WebSocket</li><li>Canvas</li><li>WebRTC</li><li>Vue I18n</li></ul>
+            </div>
+          </article>
+
+          <!-- 直播網站 -->
+          <article class="project reveal" data-cat="work">
+            <div class="project-thumb project-thumb--art art-stream" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M18 14v20l16-10z"/></svg><span class="art-label mono">STREAMING</span>
+            </div>
+            <div class="project-body">
+              <p class="project-meta"><span class="badge badge--work">公司專案</span><span>2022 – 2023</span></p>
+              <h3>賽事直播網站</h3>
+              <p>直播網站前端開發與維護，介接阿里雲播放器 SDK，並以 Socket 製作直播聊天室與瀏覽器桌面通知。</p>
+              <ul class="tags"><li>Vue</li><li>Socket</li><li>阿里雲播放器 SDK</li></ul>
+            </div>
+          </article>
+
+          <!-- 前後台系統 -->
+          <article class="project reveal" data-cat="work">
+            <div class="project-thumb project-thumb--art art-admin" aria-hidden="true">
+              <span class="admin-bar"></span><span class="admin-bar"></span><span class="admin-bar"></span><span class="art-label mono">ADMIN</span>
+            </div>
+            <div class="project-body">
+              <p class="project-meta"><span class="badge badge--work">公司專案</span><span>2020 – 2023</span></p>
+              <h3>前後台管理系統與活動網站</h3>
+              <p>以 Vue CLI 開發後台管理系統與 PC / H5 活動頁，依 RESTful API 規範串接，實作 Socket 即時聊天、AES 加密，並與對岸團隊長期遠端協作。</p>
+              <ul class="tags"><li>Vue CLI</li><li>Element UI</li><li>iView</li><li>uni-app</li><li>Socket</li></ul>
+            </div>
+          </article>
+
+          <!-- 鬍子咖啡 -->
+          <article class="project reveal" data-cat="design">
+            <a class="project-thumb" href="https://aassga.github.io/coffee/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+              <img src="assets/img/coffee.webp" alt="" width="960" height="600" loading="lazy">
+            </a>
+            <div class="project-body">
+              <p class="project-meta"><span class="badge badge--design">網站設計</span><span>2020</span></p>
+              <h3>鬍子咖啡形象網站</h3>
+              <p>咖啡品牌形象網站，從視覺設計到切版一手包辦，手繪風格標題搭配油畫質感背景。</p>
+              <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>視覺設計</li></ul>
+              <div class="project-links">
+                <a href="https://aassga.github.io/coffee/" target="_blank" rel="noopener">線上展示 ↗</a>
+                <a href="https://github.com/aassga/coffee" target="_blank" rel="noopener">原始碼 ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Tripresso -->
+          <article class="project reveal" data-cat="side">
+            <div class="project-thumb project-thumb--art art-trip" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M6 30 42 14l-8 22-8-8-6 6v-8z"/></svg><span class="art-label mono">TRIP</span>
+            </div>
+            <div class="project-body">
+              <p class="project-meta"><span class="badge badge--side">個人作品</span><span>2021</span></p>
+              <h3>Tripresso 旅遊網</h3>
+              <p>串接旅遊行程搜尋 API，實作排序、分頁、評分篩選與行程卡片，規劃 7 種元件並以 Pug + SCSS 撰寫。</p>
+              <ul class="tags"><li>Vue CLI</li><li>Axios</li><li>Pug</li><li>SCSS</li></ul>
+              <div class="project-links">
+                <a href="https://github.com/aassga/tripresso" target="_blank" rel="noopener">原始碼 ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 介面設計 -->
+          <article class="project reveal" data-cat="design">
+            <div class="project-thumb project-thumb--art art-ui" aria-hidden="true">
+              <span class="ui-box"></span><span class="ui-box"></span><span class="art-label mono">UI DESIGN</span>
+            </div>
+            <div class="project-body">
+              <p class="project-meta"><span class="badge badge--design">網站設計</span><span>2015 – 2020</span></p>
+              <h3>保險與電商系統介面設計</h3>
+              <p>kiwi86 保單體檢、68foru 完全管理等系統介面改版：商品頁改版、強化商品特色、商品組合規劃與個人化推薦版面。</p>
+              <ul class="tags"><li>UI/UX</li><li>Photoshop</li><li>Illustrator</li><li>切版</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section class="section section--alt" id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow mono">04 / Experience</p>
+          <h2 class="section-title">經歷</h2>
+        </div>
+        <ol class="timeline">
+          <li class="reveal">
+            <span class="tl-date mono">2023/07 – 現在</span>
+            <h3>前端工程師<span>小木偶創意有限公司（原壹藝多媒體）</span></h3>
+            <p>高互動即時直播平台 H5 前端開發：WebSocket、影音串流、Canvas、多語系、重構與多環境建置。</p>
+          </li>
+          <li class="reveal">
+            <span class="tl-date mono">2021/08 – 2023/07</span>
+            <h3>前端工程師<span>奇異科技資訊有限公司</span></h3>
+            <p>Vue 前後台系統與活動網站、Socket 聊天室與桌面通知、阿里雲播放器 SDK、AES 加密、程式碼重構。</p>
+          </li>
+          <li class="reveal">
+            <span class="tl-date mono">2020/12 – 2021/08</span>
+            <h3>網頁前端工程師<span>輝鷹有限公司</span></h3>
+            <p>Vue CLI 前後台系統開發、Socket 即時聊天，與對岸團隊長期遠端協作。</p>
+          </li>
+          <li class="reveal">
+            <span class="tl-date mono">2020/04 – 2020/12</span>
+            <h3>Front-End Engineer / Designer<span>香港商創優有限公司台灣分公司</span></h3>
+            <p>網站流程規劃、視覺設計、切版與 Vue CLI 元件模組化。</p>
+          </li>
+          <li class="reveal">
+            <span class="tl-date mono">2015/05 – 2020/01</span>
+            <h3>網頁設計師<span>奇韋系統股份有限公司</span></h3>
+            <p>公司網站流程規劃、版面設計與 RWD 靜態頁面撰寫。</p>
+          </li>
+        </ol>
+
+        <div class="edu-cert">
+          <div class="reveal">
+            <h3 class="sub-title">學歷與進修</h3>
+            <ul class="plain-list">
+              <li><strong>聖約翰科技大學</strong>電腦與通訊工程系</li>
+              <li><strong>資訊工業策進會</strong>互動式網站 UI/UX 設計師就業養成班</li>
+              <li><strong>赫綵設計學院</strong>商用視覺平面設計</li>
+            </ul>
+          </div>
+          <div class="reveal">
+            <h3 class="sub-title">證照</h3>
+            <ul class="plain-list">
+              <li><strong>丙級網頁設計技術士</strong>勞動部技能檢定中心</li>
+              <li><strong>TQC-WD 網頁設計類 HTML</strong>Certiport</li>
+              <li><strong>MTA 微軟專業應用技術國際認證</strong>Microsoft</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section contact" id="contact">
+      <div class="container contact-inner reveal">
+        <p class="eyebrow mono">05 / Contact</p>
+        <h2 class="section-title">一起打造好用的產品</h2>
+        <p class="section-desc">正在尋找 Vue 前端工程師的機會，歡迎透過以下方式與我聯繫。</p>
+        <div class="contact-actions">
+          <a class="btn btn--primary" href="https://github.com/aassga" target="_blank" rel="noopener">GitHub @aassga</a>
+          <a class="btn btn--ghost" href="https://www.104.com.tw/" target="_blank" rel="noopener">104 人力銀行</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year">2026</span> 吳曜廷 Yao-Ting Wu・Built with HTML, CSS &amp; JavaScript</div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
